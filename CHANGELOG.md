@@ -1,3 +1,8 @@
+v0.0.11 (28/12/2016)
+===================
+## hotfixes
+- alterando url assets com https
+
 v0.0.10 (28/12/2016)
 ===================
 ## hotfixes

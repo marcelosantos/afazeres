@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
         <link rel="stylesheet" type="text/css"
-              href="css/oquefazer.css">
+              href="https://afazeres.herokuapp.com/css/oquefazer.css">
 
         <title>O Que Fazer</title>
 
@@ -28,8 +28,8 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
-        <script src="js/oquefazer.config.js"></script>
-        <script src="js/lista.controller.js"></script>
+        <script src="https://afazeres.herokuapp.com/js/oquefazer.config.js"></script>
+        <script src="https://afazeres.herokuapp.com/js/lista.controller.js"></script>
 
     </body>
 </html>
