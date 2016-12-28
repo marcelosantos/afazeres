@@ -9,7 +9,7 @@
         var self = this;
 
         //self.HOST = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port;
-        self.HOST = 'https://' + window.location.hostname + ':' + window.location.port;
+        self.HOST = "";
 
         self.form_cadastro = true;
         self.form_edicao = false;
