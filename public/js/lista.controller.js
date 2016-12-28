@@ -8,7 +8,7 @@
         //Declaração de propriedades do controller
         var self = this;
 
-        self.HOST = 'http://' + window.location.hostname + ':' + window.location.port;
+        self.HOST = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port;
 
         self.form_cadastro = true;
         self.form_edicao = false;
