@@ -1,3 +1,8 @@
+v0.0.7 (28/12/2016)
+===================
+## hotfixes
+- alterando configuração de DEBUG
+
 v0.0.6 (28/12/2016)
 ===================
 ## hotfixes
