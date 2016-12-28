@@ -1,3 +1,8 @@
+v0.0.14 (28/12/2016)
+===================
+## hotfixes
+- modificando comportamentos no laravel e rotas
+
 v0.0.13 (28/12/2016)
 ===================
 ## hotfixes
