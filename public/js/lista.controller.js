@@ -8,6 +8,8 @@
         //Declaração de propriedades do controller
         var self = this;
 
+        self.HOST = 'http://' + window.location.hostname + ':' + window.location.port;
+
         self.form_cadastro = true;
         self.form_edicao = false;
 
@@ -61,7 +63,7 @@
                 "status": atividade.status
             };
 
-            $http.post('/api/adicionar/', self.atividade)
+            $http.post(self.HOST + '/api/adicionar/', self.atividade)
                 .then(sucessoAdicao,erroAdicao);
 
         };
@@ -80,7 +82,7 @@
         //Função para listar atividades
         function listar() {
 
-            $http.get('/api/listar/')
+            $http.get(self.HOST + '/api/listar/')
                 .then(sucessoListagem,erroListagem);
 
         };
@@ -111,7 +113,7 @@
         //Função para editar atividade
         function editar() {
 
-            $http.post('/api/editar/', self.atividadeEdicao)
+            $http.post(self.HOST + '/api/editar/', self.atividadeEdicao)
                 .then(sucessoEdicao,erroEdicao);
 
         };
@@ -135,7 +137,7 @@
         //Função para remover todas as atividades cadastradas
         function limpar() {
 
-            $http.post('/api/limpar/')
+            $http.post(self.HOST + '/api/limpar/')
                 .then(sucessoLimpeza,erroLimpeza);
 
         };
@@ -160,7 +162,7 @@
                 "id_atividade": atividade.id_atividade,
             };
 
-            $http.post('/api/excluir/', self.atividade)
+            $http.post(self.HOST + '/api/excluir/', self.atividade)
                 .then(sucessoExclusao,erroExclusao);
 
         };
@@ -185,7 +187,7 @@
                 "id_atividade": atividade.id_atividade,
             };
 
-            $http.post('/api/finalizar/', self.atividade)
+            $http.post(self.HOST + '/api/finalizar/', self.atividade)
                 .then(sucessoFinalizacao,erroFinalizacao);
 
         };
@@ -210,7 +212,7 @@
                 "id_atividade": atividade.id_atividade,
             };
 
-            $http.post('/api/pendenciar/', self.atividade)
+            $http.post(self.HOST + '/api/pendenciar/', self.atividade)
                 .then(sucessoPendenciacao,erroPendenciacao);
 
         };
