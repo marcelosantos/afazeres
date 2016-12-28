@@ -1,3 +1,10 @@
+v0.0.5 (28/12/2016)
+===================
+## features
+- deploy heroku
+    - alterando arquivo de log para uso do laravel no heroku
+    - adicionando APP_KEY no heroku
+
 v0.0.4 (28/12/2016)
 ===================
 ## features
