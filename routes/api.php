@@ -15,6 +15,8 @@ use App\Atividade;
 |
 */
 
+Route::get('timezones', ['https' => 'true', 'uses' => 'Api\Utilities\LocalesController@timeZones']);
+
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
