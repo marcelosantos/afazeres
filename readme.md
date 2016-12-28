@@ -32,7 +32,7 @@ Este projeto é apenas um estudo de caso simples, que pode melhorar, eu foquei n
 0. instale o [bower](http://bower.io/)
 0. entre no diretório root da aplicação `cd pasta_raiz_do_projeto` onde encontra-se o `bower.json`
 0. execute `bower install`
-0. após isso faça as alterações nos imports das libs que estão no template `templates/inicial.html`
+0. após isso faça as alterações nos imports das libs que estão no template `resources/views/welcome.blade.php`
 
 ### Para rodar a aplicação
 
