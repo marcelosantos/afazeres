@@ -1,3 +1,8 @@
+v0.0.6 (28/12/2016)
+===================
+## hotfixes
+- alterando arquivo de log para uso do laravel no heroku
+
 v0.0.5 (28/12/2016)
 ===================
 ## features
