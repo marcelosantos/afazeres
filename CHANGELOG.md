@@ -1,3 +1,8 @@
+v0.0.10 (28/12/2016)
+===================
+## hotfixes
+- alterando host para ajax com HTTPS no heroku
+
 v0.0.9 (28/12/2016)
 ===================
 ## hotfixes
