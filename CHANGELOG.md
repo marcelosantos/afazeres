@@ -1,3 +1,8 @@
+v0.0.12 (28/12/2016)
+===================
+## hotfixes
+- removendo url http do rodapé para evitar warning de segurança nos navegadores
+
 v0.0.11 (28/12/2016)
 ===================
 ## hotfixes
