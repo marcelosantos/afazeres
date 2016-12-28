@@ -1,3 +1,9 @@
+v0.0.4 (28/12/2016)
+===================
+## features
+- deploy heroku
+    - adicionando arquivo Procfile
+
 v0.0.3 (28/12/2016)
 ===================
 ## features
