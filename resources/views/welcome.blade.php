@@ -17,6 +17,8 @@
     </head>
     <body ng-app="oquefazer.app">
 
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
         <ng-view></ng-view>
 
     </body>
