@@ -30,7 +30,7 @@ Este projeto é apenas um estudo de caso simples, que pode melhorar, eu foquei n
 ### Para rodar alguns testes de view para a aplicação
 
 0. entre no diretório root da aplicação `cd pasta_raiz_do_projeto`
-0. execute `php artisan make:test`.
+0. execute `./vendor/phpunit/phpunit/phpunit`.
 
 ### Instalando bibliotecas do frontend com bower (nesse projeto estou utilizando o CDN)
 
