@@ -7,6 +7,12 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 class AtividadeTest extends TestCase
 {
 
+    /**
+     * Um teste funcional básico para acesso à API.
+     *
+     * @return void
+     */
+
     public function testAdicionar()
 	{
 
