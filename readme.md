@@ -4,6 +4,11 @@
 
 Este projeto é apenas um estudo de caso simples, que pode melhorar, eu foquei no essencial do projeto, cadastrar as atividades, mudar o status das mesmas, listar e excluir. Como melhorias futuras podem existir diálogos de confirmação nas ações de exclusão geral ou por atividade, opção de data com calendário, paginação etc.
 
+
+### Deploy no Heroku
+
+* https://afazeres.herokuapp.com/
+
 ### Dependências
 
 0. PHP 5.7.x

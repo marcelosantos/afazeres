@@ -1,3 +1,9 @@
+v0.0.19 (29/12/2016)
+===================
+## hotfixes
+- alterações no README com URL do Heroku para acesso a aplicação
+- adicionando alguns comentários no controller de Atividade
+
 v0.0.18 (29/12/2016)
 ===================
 ## hotfixes

@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class AtividadeController extends Controller
 {
 
+    //Ação responsável por recber a requisição e criar uma atividade
     public function adicionar(Request $request){
 
         $atividade = new Atividade(
@@ -22,6 +23,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição e listar as atividades
     public function listar(Request $request){
 
         $atividade = new Atividade;
@@ -29,6 +31,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição e editar uma atividade
     public function editar(Request $request){
 
         $atividade = new Atividade(
@@ -43,6 +46,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição remover todas as atividades
     public function limpar(Request $request){
 
         $atividade = new Atividade;
@@ -51,6 +55,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição e excluir uma atividade
     public function excluir(Request $request){
 
         $atividade = new Atividade(
@@ -65,6 +70,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição e mudar uma atividade para finalizada
     public function finalizar(Request $request){
 
         $atividade = new Atividade(
@@ -79,6 +85,7 @@ class AtividadeController extends Controller
 
     }
 
+    //Ação responsável por recber a requisição e mudar uma atividade para pendente
     public function pendenciar(Request $request){
 
         $atividade = new Atividade(
