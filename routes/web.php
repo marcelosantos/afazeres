@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Http\Request;
+
+use App\Atividade;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['prefix' => 'api'], function(){
-    Route::resource('listar','AtividadeController', ['only' => ['listar']]);
-});
+#Route::group(['prefix' => 'api'], function(){
+#    Route::resource('listar','AtividadeController', ['only' => ['listar']]);
+#});

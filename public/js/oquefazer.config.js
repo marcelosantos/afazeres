@@ -11,10 +11,10 @@ function config($routeProvider) {
     })
     .otherwise('/');
 }
-])
-.config(['$httpProvider', function ($httpProvider) {
+]).config(['$httpProvider', function ($httpProvider) {
     // Intercept POST requests, convert to standard form encoding
     $httpProvider.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
+    // $httpProvider.defaults.headers.post["_token"] = $("input[name='_token']").val();
     $httpProvider.defaults.transformRequest.unshift(function (data, headersGetter) {
         var key, result = [];
 

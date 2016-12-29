@@ -1,3 +1,10 @@
+v0.0.17 (28/12/2016)
+===================
+## hotfixes
+- refatorando camadas de organização da aplicação
+- organizando URL do serviços da API
+- adicionando CsrfToken
+
 v0.0.16 (28/12/2016)
 ===================
 ## hotfixes
