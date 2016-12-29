@@ -17,6 +17,12 @@
     </head>
     <body ng-app="oquefazer.app">
 
+        <div data-ng-if="loading">
+
+            <div class="loading"></div>
+
+        </div>
+
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
         <ng-view></ng-view>
