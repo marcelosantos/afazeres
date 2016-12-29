@@ -1,3 +1,8 @@
+v0.0.21 (29/12/2016)
+===================
+## hotfixes
+- alterações no README comando para execução dos testes com PHPUnit
+
 v0.0.20 (29/12/2016)
 ===================
 ## features
