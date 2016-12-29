@@ -1,3 +1,10 @@
+v0.0.20 (29/12/2016)
+===================
+## features
+- testes
+    - adicionando alguns testes de acesso às URLs da API
+    - adicionando alguns testes de requisição à API
+
 v0.0.19 (29/12/2016)
 ===================
 ## hotfixes
