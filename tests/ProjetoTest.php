@@ -59,4 +59,23 @@ class ProjetoTest extends TestCase
         $this->assertEquals(200, $response->status());
     }
 
+    /*public function testNovaAtividade()
+    {
+        $this->visit('/')
+             ->type('Atividade', 'titulo')
+             ->type('Descricao', 'descricao')
+             ->check('status')
+             ->press('Cadastra Tarefa')
+             ->seePageIs('/api/adicionar');
+    }
+
+    public function testBotaoAdicionar()
+    {
+        $this->visit('/')
+             ->press('Cadastrar Tarefa')
+             ->seePageIs('/api/adicionar');
+    }
+    */
+
+
 }

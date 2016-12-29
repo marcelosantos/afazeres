@@ -31,12 +31,12 @@ angular
 function config($routeProvider) {
 
     $routeProvider
-    .when('/', {
+    .when('/inicial', {
         templateUrl: '/views/lista.html',
         controller: 'ListaController',
         controllerAs: 'vm'
     })
-    .otherwise('/');
+    .otherwise('/inicial');
 }
 ])
 .config(['$httpProvider', function ($httpProvider) {
