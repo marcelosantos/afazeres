@@ -1,3 +1,11 @@
+v0.0.22 (29/12/2016)
+===================
+## hotfixes
+- angular
+    - rota padrão para /inicial
+- PHPUnit
+    - habilitando cobertura de código
+
 v0.0.21 (29/12/2016)
 ===================
 ## hotfixes
